@@ -6,12 +6,12 @@
     --branco: #0051ffaf;
     --botao-ativo: #3A375E;
     --botao-inativo: rgba(0, 238, 255, 0.411);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --texto-fundo: rgba(255, 0, 0, 0.3);
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var(--vermelho);
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -33,14 +33,14 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: var(--azul);
 }
 
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco);
+    color: var(--vermelho);
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -63,7 +63,7 @@ body {
 
 .botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
+    border-bottom: 4px solid var(--preto);
 }
 
 .abas-textos{
